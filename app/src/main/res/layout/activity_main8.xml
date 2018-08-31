@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pemesan"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:id="@+id/nama_pemesan"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_marginLeft="69dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:id="@+id/alamat"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. Hp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_marginLeft="71dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:id="@+id/hp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:text="Nama Kue"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:layout_weight="0.3"
+                    android:textStyle="bold"
+                    android:background="#fff5cc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:id="@+id/nama"/>
+
+            </TableRow>
+
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:text="Bentuk / Topping"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:layout_weight="0.3"
+                    android:textStyle="bold"
+                    android:background="#fff5cc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:id="@+id/jenis"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:text="Harga Satuan"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:layout_weight="0.3"
+                    android:textStyle="bold"
+                    android:background="#fff5cc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:id="@+id/harga"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:text="Jumlah"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:layout_weight="0.3"
+                    android:textStyle="bold"
+                    android:background="#fff5cc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:id="@+id/jumlah"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:text="Tanggal Ambil"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:layout_weight="0.3"
+                    android:textStyle="bold"
+                    android:background="#fff5cc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:padding="8dp"
+                    android:textSize="15dp"
+                    android:id="@+id/tgl_ambil"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:text="Detail Tambahan"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:layout_weight="0.3"
+                    android:textStyle="bold"
+                    android:background="#fff5cc"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:id="@+id/tambahan"/>
+
+            </TableRow>
+
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:text="Total"
+                    android:textSize="15dp"
+                    android:padding="8dp"
+                    android:layout_weight="0.3"
+                    android:textStyle="bold"
+                    android:background="#ffe680"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:textSize="17dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffa31a"
+                    android:padding="8dp"
+                    android:id="@+id/total"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selesai"
+            android:background="#ffb31a"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:onClick="selesai"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

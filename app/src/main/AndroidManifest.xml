@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.bakery">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:label="Devy Bakery">
+        <activity android:name=".SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Main2Activity"
+            android:label="Cake / Kue Tart" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="Kue Kering" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="Kue Tradisional" />
+        <activity
+            android:name=".Main6Activity"
+            android:label="BlackForest" />
+        <activity
+            android:name=".Main4Activity"
+            android:label="Roti" />
+        <activity
+            android:name=".Main7Activity"
+            android:label="Cup Cake" />
+        <activity
+            android:name=".Main8Activity"
+            android:label="Detail Pesanan" />
+        <activity
+            android:name=".Main9Activity"
+            android:label="Cheese Cake" />
+        <activity
+            android:name=".Main10Activity"
+            android:label="Roll Cake" />
+        <activity
+            android:name=".Main11Activity"
+            android:label="Kue Tart" />
+        <activity
+            android:name=".Main12Activity"
+            android:label="Brownies" />
+        <activity
+            android:name=".Main13Activity"
+            android:label="Rainbow Cake" />
+        <activity
+            android:name=".Main14Activity"
+            android:label="Kastengel" />
+        <activity
+            android:name=".Main15Activity"
+            android:label="Nastar" />
+        <activity
+            android:name=".Main16Activity"
+            android:label="Putri Salju" />
+        <activity
+            android:name=".Main17Activity"
+            android:label="Kue Kacang" />
+        <activity
+            android:name=".Main18Activity"
+            android:label="Monde" />
+        <activity
+            android:name=".Main19Activity"
+            android:label="Chocochips" />
+        <activity
+            android:name=".Main20Activity"
+            android:label="Sus Kering" />
+        <activity
+            android:name=".Main21Activity"
+            android:label="Semprit Sagu" />
+        <activity
+            android:name=".Main22Activity"
+            android:label="Roti Sobek" />
+        <activity
+            android:name=".Main23Activity"
+            android:label="Roti Tawar" />
+        <activity
+            android:name=".Main24Activity"
+            android:label="Bluder" />
+        <activity
+            android:name=".Main25Activity"
+            android:label="Roti Sosis" />
+        <activity
+            android:name=".Main26Activity"
+            android:label="Donat" />
+        <activity
+            android:name=".Main27Activity"
+            android:label="Pizza Mini" />
+        <activity
+            android:name=".Main28Activity"
+            android:label="Roti Isi" />
+        <activity
+            android:name=".Main29Activity"
+            android:label="Bikang" />
+        <activity
+            android:name=".Main30Activity"
+            android:label="Onde Onde" />
+        <activity
+            android:name=".Main31Activity"
+            android:label="Lapis" />
+        <activity
+            android:name=".Main32Activity"
+            android:label="Dadar Gulung" />
+        <activity
+            android:name=".Main33Activity"
+            android:label="Lemper" />
+        <activity
+            android:name=".Main34Activity"
+            android:label="Putu Ayu" />
+    </application>
+
+</manifest>

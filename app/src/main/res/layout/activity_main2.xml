@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/bf"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/bf"/>
+
+                <TextView
+                    android:id="@+id/bf_text1"
+                    style="@style/text1Submenu"
+                    android:text="BlackForest"
+                    android:layout_toRightOf="@id/bf"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/bf_text1"
+                    android:layout_toRightOf="@id/bf"
+                    android:id="@+id/bf_text2"/>
+
+                <TextView
+                    android:id="@+id/bf_price"
+                    style="@style/price"
+                    android:text="Rp100.000"
+                    android:layout_below="@id/bf_text2"
+                    android:layout_toRightOf="@id/bf"/>
+
+                <ImageButton
+                    android:id="@+id/bfOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/cup"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/cupcake"/>
+
+                <TextView
+                    android:id="@+id/cup_text1"
+                    style="@style/text1Submenu"
+                    android:text="Cup Cake"
+                    android:layout_toRightOf="@id/cup"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/cup_text1"
+                    android:layout_toRightOf="@id/cup"
+                    android:id="@+id/cup_text2"/>
+
+                <TextView
+                    android:id="@+id/cup_price"
+                    style="@style/price"
+                    android:text="Rp 5.000 / pcs"
+                    android:layout_below="@id/cup_text2"
+                    android:layout_toRightOf="@id/cup"/>
+
+                <ImageButton
+                    android:id="@+id/cupOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/cheese"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/cheese"/>
+
+                <TextView
+                    android:id="@+id/cheese_text1"
+                    style="@style/text1Submenu"
+                    android:text="Cheese Cake"
+                    android:layout_toRightOf="@id/cheese"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/cheese_text1"
+                    android:layout_toRightOf="@id/cheese"
+                    android:id="@+id/cheese_text2"/>
+
+                <TextView
+                    android:id="@+id/cheese_price"
+                    style="@style/price"
+                    android:text="Rp200.000"
+                    android:layout_below="@id/cheese_text2"
+                    android:layout_toRightOf="@id/cheese"/>
+
+                <ImageButton
+                    android:id="@+id/cheeseOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/roll"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/roll"/>
+
+                <TextView
+                    android:id="@+id/roll_text1"
+                    style="@style/text1Submenu"
+                    android:text="Roll Cake"
+                    android:layout_toRightOf="@id/roll"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/roll_text1"
+                    android:layout_toRightOf="@id/roll"
+                    android:id="@+id/roll_text2"/>
+
+                <TextView
+                    android:id="@+id/roll_price"
+                    style="@style/price"
+                    android:text="Rp25.000"
+                    android:layout_below="@id/roll_text2"
+                    android:layout_toRightOf="@id/roll"/>
+
+                <ImageButton
+                    android:id="@+id/rollOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/tart"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/tart"/>
+
+                <TextView
+                    android:id="@+id/tart_text1"
+                    style="@style/text1Submenu"
+                    android:text="Kue Tart"
+                    android:layout_toRightOf="@id/tart"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/tart_text1"
+                    android:layout_toRightOf="@id/tart"
+                    android:id="@+id/tart_text2"/>
+
+                <TextView
+                    android:id="@+id/tart_price"
+                    style="@style/price"
+                    android:text="Rp90.000"
+                    android:layout_below="@id/tart_text2"
+                    android:layout_toRightOf="@id/tart"/>
+
+                <ImageButton
+                    android:id="@+id/tartOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/brownies"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/brownies"/>
+
+                <TextView
+                    android:id="@+id/brownies_text1"
+                    style="@style/text1Submenu"
+                    android:text="Brownies"
+                    android:layout_toRightOf="@id/brownies"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/brownies_text1"
+                    android:layout_toRightOf="@id/brownies"
+                    android:id="@+id/brownies_text2"/>
+
+                <TextView
+                    android:id="@+id/brownies_price"
+                    style="@style/price"
+                    android:text="Rp45.000"
+                    android:layout_below="@id/brownies_text2"
+                    android:layout_toRightOf="@id/brownies"/>
+
+                <ImageButton
+                    android:id="@+id/browniesOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/rainbow"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/rainbow"/>
+
+                <TextView
+                    android:id="@+id/rainbow_text1"
+                    style="@style/text1Submenu"
+                    android:text="Rainbow Cake"
+                    android:layout_toRightOf="@id/rainbow"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/rainbow_text1"
+                    android:layout_toRightOf="@id/rainbow"
+                    android:id="@+id/rainbow_text2"/>
+
+                <TextView
+                    android:id="@+id/rainbow_price"
+                    style="@style/price"
+                    android:text="Rp210.000"
+                    android:layout_below="@id/rainbow_text2"
+                    android:layout_toRightOf="@id/rainbow"/>
+
+                <ImageButton
+                    android:id="@+id/rainbowOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/back"
+        android:background="@android:drawable/arrow_up_float"
+        android:id="@+id/back"/>
+</RelativeLayout>
+

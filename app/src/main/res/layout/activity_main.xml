@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg"
+                android:scaleType="centerCrop"
+                android:alpha="0.5"
+                android:id="@+id/background"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+                android:layout_centerInParent="true"
+                android:id="@+id/logo"
+                android:layout_above="@+id/text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Devy Bakery"
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:textColor="#804000"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:paddingBottom="8dp"
+                android:id="@+id/text"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cake"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/cake_tart"/>
+
+                <TextView
+                    style="@style/text_menu"
+                    android:text="CAKE / KUE TART"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cookies"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/kering"/>
+
+                <TextView
+                    style="@style/text_menu"
+                    android:text="KUE KERING"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/roti"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bread"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    style="@style/text_menu"
+                    android:text="ROTI"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/tradisional"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/tradisional"/>
+
+                <TextView
+                    style="@style/text_menu"
+                    android:text="KUE TRADISIONAL"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffb31a"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/facebook"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/facebook"/>
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/instagram"
+                android:scaleType="centerCrop"
+                android:layout_toRightOf="@id/facebook"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/instagram"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

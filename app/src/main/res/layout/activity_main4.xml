@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/sobek"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/sobek"/>
+
+                <TextView
+                    android:id="@+id/sobek_text1"
+                    style="@style/text1Submenu"
+                    android:text="Roti Sobek"
+                    android:layout_toRightOf="@id/sobek"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/sobek_text1"
+                    android:layout_toRightOf="@id/sobek"
+                    android:id="@+id/sobek_text2"/>
+
+                <TextView
+                    android:id="@+id/sobek_price"
+                    style="@style/price"
+                    android:text="Rp8.000"
+                    android:layout_below="@id/sobek_text2"
+                    android:layout_toRightOf="@id/sobek"/>
+
+                <ImageButton
+                    android:id="@+id/sobekOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/tawar"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/tawar"/>
+
+                <TextView
+                    android:id="@+id/tawar_text1"
+                    style="@style/text1Submenu"
+                    android:text="Roti Tawar"
+                    android:layout_toRightOf="@id/tawar"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tidak Tersedia"
+                    android:layout_below="@id/tawar_text1"
+                    android:layout_toRightOf="@id/tawar"
+                    android:id="@+id/tawar_text2"/>
+
+                <TextView
+                    android:id="@+id/tawar_price"
+                    style="@style/price"
+                    android:text="Rp15.000"
+                    android:layout_below="@id/tawar_text2"
+                    android:layout_toRightOf="@id/tawar"/>
+
+                <ImageButton
+                    android:id="@+id/tawarOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/bluder"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/bluder"/>
+
+                <TextView
+                    android:id="@+id/bluder_text1"
+                    style="@style/text1Submenu"
+                    android:text="Bluder"
+                    android:layout_toRightOf="@id/bluder"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/bluder_text1"
+                    android:layout_toRightOf="@id/bluder"
+                    android:id="@+id/bluder_text2"/>
+
+                <TextView
+                    android:id="@+id/bluder_price"
+                    style="@style/price"
+                    android:text="Rp5.000"
+                    android:layout_below="@id/bluder_text2"
+                    android:layout_toRightOf="@id/bluder"/>
+
+                <ImageButton
+                    android:id="@+id/bluderOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/sosis"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/sosis"/>
+
+                <TextView
+                    android:id="@+id/sosis_text1"
+                    style="@style/text1Submenu"
+                    android:text="Roti Sosis"
+                    android:layout_toRightOf="@id/sosis"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tidak Tersedia"
+                    android:layout_below="@id/sosis_text1"
+                    android:layout_toRightOf="@id/sosis"
+                    android:id="@+id/sosis_text2"/>
+
+                <TextView
+                    android:id="@+id/sosis_price"
+                    style="@style/price"
+                    android:text="Rp4.000"
+                    android:layout_below="@id/sosis_text2"
+                    android:layout_toRightOf="@id/sosis"/>
+
+                <ImageButton
+                    android:id="@+id/sosisOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/donat"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/donat"/>
+
+                <TextView
+                    android:id="@+id/donat_text1"
+                    style="@style/text1Submenu"
+                    android:text="Donat"
+                    android:layout_toRightOf="@id/donat"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/donat_text1"
+                    android:layout_toRightOf="@id/donat"
+                    android:id="@+id/donat_text2"/>
+
+                <TextView
+                    android:id="@+id/donat_price"
+                    style="@style/price"
+                    android:text="Rp1.500"
+                    android:layout_below="@id/donat_text2"
+                    android:layout_toRightOf="@id/donat"/>
+
+                <ImageButton
+                    android:id="@+id/donatOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/pizza"
+                    style="@style/imgSubmenu"
+                    android:src="@drawable/pizza"/>
+
+                <TextView
+                    android:id="@+id/pizza_text1"
+                    style="@style/text1Submenu"
+                    android:text="Pizza Mini"
+                    android:layout_toRightOf="@id/pizza"/>
+
+                <TextView
+                    style="@style/text2Submenu"
+                    android:text="Pilihan Tersedia"
+                    android:layout_below="@id/pizza_text1"
+                    android:layout_toRightOf="@id/pizza"
+                    android:id="@+id/pizza_text2"/>
+
+                <TextView
+                    android:id="@+id/pizza_price"
+                    style="@style/price"
+                    android:text="Rp6.000"
+                    android:layout_below="@id/pizza_text2"
+                    android:layout_toRightOf="@id/pizza"/>
+
+                <ImageButton
+                    android:id="@+id/pizzaOrder"
+                    style="@style/btnSubmenu"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/isi"
+                        style="@style/imgSubmenu"
+                        android:src="@drawable/isi"/>
+
+                    <TextView
+                        android:id="@+id/isi_text1"
+                        style="@style/text1Submenu"
+                        android:text="Roti Isi"
+                        android:layout_toRightOf="@id/isi"/>
+
+                    <TextView
+                        style="@style/text2Submenu"
+                        android:text="Pilihan Tersedia"
+                        android:layout_below="@id/isi_text1"
+                        android:layout_toRightOf="@id/isi"
+                        android:id="@+id/isi_text2"/>
+
+                    <TextView
+                        android:id="@+id/isi_price"
+                        style="@style/price"
+                        android:text="Rp2.000"
+                        android:layout_below="@id/isi_text2"
+                        android:layout_toRightOf="@id/isi"/>
+
+                    <ImageButton
+                        android:id="@+id/isiOrder"
+                        style="@style/btnSubmenu"/>
+
+                </RelativeLayout>
+
+                <View android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#bbb"/>
+
+            </RelativeLayout>
+
+            <View android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="#bbb"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/back"
+        android:background="@android:drawable/arrow_up_float"
+        android:id="@+id/back"/>
+</RelativeLayout>

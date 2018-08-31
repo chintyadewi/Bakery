@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ff9900</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#ff9900</item>
+    </style>
+
+    <style name="text_menu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">#fff0b3</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#804000</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+
+    <style name="imgSubmenu">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="text1Submenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text2Submenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="price">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:textColor">#ff9900</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="btnSubmenu">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/basket</item>
+        <item name="android:background">@android:drawable/arrow_up_float</item>
+    </style>
+</resources>
