@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.bakery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/logo"
+        android:label="Devy Bakery"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.android.bakery.SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.bakery.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.android.bakery.Main2Activity"
+            android:label="Cake / Kue Tart" />
+        <activity
+            android:name="com.example.android.bakery.Main3Activity"
+            android:label="Kue Kering" />
+        <activity
+            android:name="com.example.android.bakery.Main5Activity"
+            android:label="Kue Tradisional" />
+        <activity
+            android:name="com.example.android.bakery.Main6Activity"
+            android:label="BlackForest" />
+        <activity
+            android:name="com.example.android.bakery.Main4Activity"
+            android:label="Roti" />
+        <activity
+            android:name="com.example.android.bakery.Main7Activity"
+            android:label="Cup Cake" />
+        <activity
+            android:name="com.example.android.bakery.Main8Activity"
+            android:label="Detail Pesanan" />
+        <activity
+            android:name="com.example.android.bakery.Main9Activity"
+            android:label="Cheese Cake" />
+        <activity
+            android:name="com.example.android.bakery.Main10Activity"
+            android:label="Roll Cake" />
+        <activity
+            android:name="com.example.android.bakery.Main11Activity"
+            android:label="Kue Tart" />
+        <activity
+            android:name="com.example.android.bakery.Main12Activity"
+            android:label="Brownies" />
+        <activity
+            android:name="com.example.android.bakery.Main13Activity"
+            android:label="Rainbow Cake" />
+        <activity
+            android:name="com.example.android.bakery.Main14Activity"
+            android:label="Kastengel" />
+        <activity
+            android:name="com.example.android.bakery.Main15Activity"
+            android:label="Nastar" />
+        <activity
+            android:name="com.example.android.bakery.Main16Activity"
+            android:label="Putri Salju" />
+        <activity
+            android:name="com.example.android.bakery.Main17Activity"
+            android:label="Kue Kacang" />
+        <activity
+            android:name="com.example.android.bakery.Main18Activity"
+            android:label="Monde" />
+        <activity
+            android:name="com.example.android.bakery.Main19Activity"
+            android:label="Chocochips" />
+        <activity
+            android:name="com.example.android.bakery.Main20Activity"
+            android:label="Sus Kering" />
+        <activity
+            android:name="com.example.android.bakery.Main21Activity"
+            android:label="Semprit Sagu" />
+        <activity
+            android:name="com.example.android.bakery.Main22Activity"
+            android:label="Roti Sobek" />
+        <activity
+            android:name="com.example.android.bakery.Main23Activity"
+            android:label="Roti Tawar" />
+        <activity
+            android:name="com.example.android.bakery.Main24Activity"
+            android:label="Bluder" />
+        <activity
+            android:name="com.example.android.bakery.Main25Activity"
+            android:label="Roti Sosis" />
+        <activity
+            android:name="com.example.android.bakery.Main26Activity"
+            android:label="Donat" />
+        <activity
+            android:name="com.example.android.bakery.Main27Activity"
+            android:label="Pizza Mini" />
+        <activity
+            android:name="com.example.android.bakery.Main28Activity"
+            android:label="Roti Isi" />
+        <activity
+            android:name="com.example.android.bakery.Main29Activity"
+            android:label="Bikang" />
+        <activity
+            android:name="com.example.android.bakery.Main30Activity"
+            android:label="Onde Onde" />
+        <activity
+            android:name="com.example.android.bakery.Main31Activity"
+            android:label="Lapis" />
+        <activity
+            android:name="com.example.android.bakery.Main32Activity"
+            android:label="Dadar Gulung" />
+        <activity
+            android:name="com.example.android.bakery.Main33Activity"
+            android:label="Lemper" />
+        <activity
+            android:name="com.example.android.bakery.Main34Activity"
+            android:label="Putu Ayu" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.android.bakery.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
